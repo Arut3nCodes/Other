@@ -2,7 +2,7 @@
     Program z udziwnieniami 
 */
 
-#include <iostream> // dyrektywa zawierajaca podstawowe metody z ktorych bêdziemy korzystac
+#include <iostream> // dyrektywa zawierajaca podstawowe metody z ktorych bÄ™dziemy korzystac
 #include <string> //dyrektywa zawierajaca obiekt mogacy przechowywac tekst
 #include <vector> //dyrektywa zawierajaca dynamiczna strukture przechowywania danych
 
@@ -39,7 +39,7 @@ int main()
     do {
        
         cout << "Wpisz nazwe produktu: ";
-        cin >> nazwa; //pobieramy z konsoli nazwe produktu
+        getline(cin, nazwa); //pobieramy z konsoli nazwe produktu
         cout << "Wpisz ilosc produktu: ";
         cin >> ilosc; //a tu ilosc produktow
 
